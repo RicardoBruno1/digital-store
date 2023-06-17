@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+}
+
+#login {
+  background: linear-gradient(180deg, #B5B6F2 0%, #EFEFFF 100%);
+  padding-left: 100px;
+  padding-top: 120px;  
+  padding-bottom: 120px;
+  
+}
+
+#login .container {
+  width: 100%;
+}
+
+#login form {
+  
+  width: 583px;  
+  background: #FFFFFF;
+  border-radius: 4px;
+  padding: 30px;
+
+  
+}
+
+#login form h2 {
+  line-height: 36px;
+  font-size: 32px;
+  color: #1f1f1f;
+  letter-spacing: 1px;
+}
+
+#login form p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.75;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#login form label {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.75;
+  
+}
+
+#login form input {
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  padding: 25px;
+  background-color: #47474710;
+  border: 1px solid transparent;
+  margin-bottom: 20px;
+  outline: 0;
+  transition-duration: .2s;
+}
+
+#login form a {
+  color: #474747;
+  text-decoration: underline;
+  
+}
+
+#login form .recuperar {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+#login form button {
+  width: 100%;
+  line-height: 48px;
+  background-color: #C92071;
+  border: 0;
+  border-radius: 8px;
+  color: #F5F5F5;
+  font-size: 16px;
+  letter-spacing: 0.75;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: .2s;
+  margin-top: 15px;
+}
+
+#login form .form-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#login form .form-footer p {
+  margin: 0;
+  color: #474747;
+}
+
+#login form .form-footer img {
+  margin-left: 20px;
+}
